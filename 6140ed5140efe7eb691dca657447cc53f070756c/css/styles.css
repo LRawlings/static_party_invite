@@ -1,0 +1,163 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #d6d6d6;
+    background-color: #464646;
+}
+
+.background1 {
+    background: url(../images/pic1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.background2 {
+    background: url(../images/pic2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.background3 {
+    background: url(../images/pic3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.background4 {
+    background: url(../images/pic4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.title {
+    color:white;
+    font-weight:bold;
+}
+
+.active {
+    font-weight:bold;
+}
+
+.header_links {
+    width: 100%;
+    margin: auto;
+    font-size: 20pt;
+}
+
+.header_links ul {
+    padding-left: 0px;
+}
+
+.header_links ul li {
+    display: inline;
+}
+
+.header_links ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+address {
+   font-size: 20pt;
+}
+
+a, .card ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.card ul li a:hover, a:hover, .header_links ul li a:hover {
+    color: gray;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 600px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
+.card {
+    margin: 40px auto 70px auto;
+    width: auto;
+    max-width: 510px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px 20px rgba(0,0,0,0.8);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 30px rgba(0,0,0,0.8);
+}
+
+iframe {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+
+    #background_wrap1 {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 117%;
+        background-image: url('../images/pic1_mobile.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat
+    }
+
+    #background_wrap2 {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 117%;
+        background-image: url('../images/pic2_mobile.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat
+    }
+
+    #background_wrap3 {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 117%;
+        background-image: url('../images/pic3_mobile.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat
+    }
+
+    #background_wrap4 {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 117%;
+        background-image: url('../images/pic4_mobile.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat
+    }
+  }
+
