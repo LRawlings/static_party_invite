@@ -1,0 +1,1 @@
+# static_party_invite
