@@ -1,6 +1,6 @@
 # Static Website for Party Invite
 
-A static site site used as a party invite.
+A static website used as an Evite
 
 Includes:
 
